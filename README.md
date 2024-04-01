@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+<p align="center">
+  <h1 align="center">Login Page - React</h1>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📘 Sobre o Projeto
 
-## Available Scripts
+Este projeto é uma aplicação web de login responsivo, construída utilizando React JS e TypeScript. O layout foi concebido no Figma e a aplicação foi desenvolvida com base no design fornecido.
+# 📚 Funcionalidades
 
-In the project directory, you can run:
+- Responsividade
+- Dark Mode
+- Notificações
+- Animações
 
-### `npm start`
+## 🎨 Layout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O design foi meticulosamente elaborado para proporcionar uma experiência de usuário excepcional. Criado no Figma, você pode acessar o layout através do link abaixo:
 
-### `npm test`
+- [Acessar Layout no Figma](https://www.figma.com/file/rMJhp5D79wnmq6h7r27cmv/Login---Teste?type=design&node-id=1%3A14027&mode=design&t=a5Gfvwa0lznfNflz-1)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Tecnologias e Bibliotecas
 
-### `npm run build`
+Este projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- TypeScript
+- React Js
+- React Toastify
+- Framer Motion
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚧 Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para executar este projeto, você precisará de:
 
-### `npm run eject`
+- Node.js (versão 14.0 ou superior)
+- Git
+- npm (ou yarn, se preferir)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠️ Instalação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Siga estes passos para configurar o projeto localmente:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. **Clonar o Repositório:**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/billyfranklim1/react-login.git
+   cd react-login
+   ```
 
-## Learn More
+2. **Instalar Dependências:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Iniciar o Projeto:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Dados de Demostração**
+    Utilize os seguites dados de demostração para mostrar a validação da página:
+    - **Usuário:** test
+    - **Senha:** password
+
+## 🤝 Como Contribuir
+
+Sua contribuição é bem-vinda! Se você tiver sugestões para melhorar este projeto, sinta-se à vontade para fazer um fork do repositório, implementar as mudanças e criar um pull request. Seu feedback é muito valioso.
