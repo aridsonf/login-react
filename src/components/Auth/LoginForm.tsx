@@ -31,7 +31,7 @@ export default function LoginForm() {
 
   return (
     <>
-      <form autoComplete="new-password" className="my-3 pt-3">
+      <form autoComplete="new-password" className="my-3 pt-2">
         <Input 
           type={'text'} 
           placeholder={"Usuário"} 
@@ -66,13 +66,13 @@ export default function LoginForm() {
             Manter conectado
           </label>
         </div>
-        <div className="mt-3 flex justify-center">
+        <div className="mt-3 flex justify-center py-2">
           <HCaptcha sitekey="00000000–0000–0000–0000–000000000000" />
         </div>
         <ButtonSubmit disabled={isLoading} icon={enterIcon} label={'Entrar'} />
       </form>
       <div className="flex justify-center my-5">
-        <a href="#" className="text-center text-sm text-gray-400">
+        <a href="#" className="text-center text-sm text-gray-400 dark:text-neutral-400">
           <span>
             Esqueceu sua senha?{" "}
           </span>
