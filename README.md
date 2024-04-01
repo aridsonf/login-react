@@ -44,7 +44,7 @@ Siga estes passos para configurar o projeto localmente:
 
    ```bash
    git clone https://github.com/aridsonf/login-react.git
-   cd react-login
+   cd login-react
    ```
 
 2. **Instalar Dependências:**
