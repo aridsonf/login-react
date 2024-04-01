@@ -8,6 +8,7 @@ import ButtonSubmit from "../UI/ButtonSubmit";
 import { FaRegSquare, FaCheckSquare } from 'react-icons/fa';
 import { MdVisibilityOff, MdVisibility, } from "react-icons/md";
 import { Formik, Form } from 'formik';
+import { toast } from 'react-toastify';
 
 const MOCKED_USER = 'test';
 const MOCKED_PASSWORD = '12345678';
@@ -42,12 +43,19 @@ export default function LoginForm() {
     } else if (values.password !== MOCKED_PASSWORD) {
       errors.password = 'Senha incorreta';
     }
-
     return errors;
   };
 
   const onSubmit = (values: FormValues) => {
-    console.log('Login bem-sucedido', values);
+    toast.success("Sucesso", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
   };
 
   let Icon = FaRegSquare; 
