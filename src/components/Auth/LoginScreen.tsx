@@ -3,10 +3,20 @@ import SocialButtons from './SocialButtonsContainer';
 import WelcomeMessage from './Welcome';
 import LoginForm from './LoginForm';
 import Header from '../Layout/Header';
+import { useSlider } from "../../contexts/Slider/SliderContext";
 
 const LoginScreen: React.FC = () => {
+  const { isOpen } = useSlider();
+
   return (
-    <div className="h-full md:w-full w-full p-12 justify-center w-full xl:w-5/12">
+    <div
+        className={`h-full md:w-full w-full p-12 justify-center
+        ${
+          isOpen
+            ? "md:w-1/3 w-full lg:w-1/3"
+            : "w-full xl:w-5/12"
+        }`}
+      >
       <div>
         <Header />
         <WelcomeMessage />
