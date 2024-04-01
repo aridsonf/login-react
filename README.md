@@ -43,7 +43,7 @@ Siga estes passos para configurar o projeto localmente:
 1. **Clonar o Repositório:**
 
    ```bash
-   git clone https://github.com/billyfranklim1/react-login.git
+   git clone https://github.com/aridsonf/login-react.git
    cd react-login
    ```
 
@@ -58,7 +58,13 @@ Siga estes passos para configurar o projeto localmente:
    npm run dev
    ```
 
-4. **Dados de Demostração**
+4. **Configurar Variáveis de Ambiente:**
+   Renomeie o arquivo `.env.example` para `.env` e ajuste as variáveis conforme necessário.
+
+   ```bash
+   REACT_APP_HCAPTCHA_SITEKEY=your-hcaptcha-site-key
+
+5. **Dados de Demostração**
     Utilize os seguites dados de demostração para mostrar a validação da página:
     - **Usuário:** test
     - **Senha:** password
