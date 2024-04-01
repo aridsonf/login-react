@@ -99,7 +99,7 @@ Siga estes passos para configurar o projeto localmente:
 5. **Dados de Demostração**
     Utilize os seguites dados de demostração para mostrar a validação da página:
     - **Usuário:** test
-    - **Senha:** password
+    - **Senha:** 12345678
 
 ## 🤝 Como Contribuir
 
