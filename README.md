@@ -6,6 +6,31 @@
 
 Este projeto é uma aplicação web de login responsivo, construída utilizando React JS e TypeScript. O layout foi concebido no Figma e a aplicação foi desenvolvida com base no design fornecido.
 
+## 🖥️ Telas do Projeto
+
+<table>
+  <tr>
+    <td align="center">Modo Claro - Web com Banner</td>
+    <td align="center">Modo Claro - Web sem Banner</td>
+    <td align="center">Modo Claro - Mobile</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="public/screenshots/web-com-banner-light.png" alt="Modo Claro - Web com Banner" width="300"></td>
+    <td align="center"><img src="public/screenshots/web-sem-banner-light.png" alt="Modo Claro - Web sem Banner" width="300"></td>
+    <td align="center"><img src="public/screenshots/mobile-light.png" alt="Modo Claro - Mobile" width="150"></td>
+  </tr>
+  <tr>
+    <td align="center">Modo Escuro - Web com Banner</td>
+    <td align="center">Modo Escuro - Web sem Banner</td>
+    <td align="center">Modo Escuro - Mobile</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="public/screenshots/web-com-banner-dark.png" alt="Modo Escuro - Web com Banner" width="300"></td>
+    <td align="center"><img src="public/screenshots/web-sem-banner-dark.png" alt="Modo Escuro - Web sem Banner" width="300"></td>
+    <td align="center"><img src="public/screenshots/mobile-dark.png" alt="Modo Escuro - Mobile" width="150"></td>
+  </tr>
+</table>
+
 ## 📚 Funcionalidades
 
 - Responsividade
