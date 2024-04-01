@@ -31,75 +31,61 @@ Este projeto é uma aplicação web de login responsivo, construída utilizando 
   </tr>
 </table>
 
-## 📚 Funcionalidades
+## Experiência e Design do Usuário 🚀🎨
 
-- Responsividade
-- Dark Mode
-- Notificações
-- Animações
+Nossa aplicação combina design intuitivo com funcionalidades essenciais para uma experiência de usuário superior. Adaptável a qualquer dispositivo, ela oferece responsividade, Dark Mode para conforto visual, notificações em tempo real e animações suaves para uma interação mais agradável.
 
-## 🎨 Layout
+O layout, projetado com foco na usabilidade e estética no Figma, está disponível para consulta. [Acessar Layout no Figma](https://www.figma.com/file/rMJhp5D79wnmq6h7r27cmv/Login---Teste?type=design&node-id=1%3A14027&mode=design&t=a5Gfvwa0lznfNflz-1), e inspire-se em nosso compromisso com uma navegação fluída e envolvente.
 
+## Pré-requisitos e Tecnologias 🚧💻
 
-O design foi meticulosamente elaborado para proporcionar uma experiência de usuário excepcional. Criado no Figma, você pode acessar o layout através do link abaixo:
+Para executar este projeto, certifique-se de ter:
 
-- [Acessar Layout no Figma](https://www.figma.com/file/rMJhp5D79wnmq6h7r27cmv/Login---Teste?type=design&node-id=1%3A14027&mode=design&t=a5Gfvwa0lznfNflz-1)
+- Node.js (versão 14.0 ou superior)
+- Git
+- npm (ou yarn, conforme sua preferência)
 
-## 💻 Tecnologias e Bibliotecas
+Este projeto foi desenvolvido com:
 
-Este projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
+- TypeScript: Para tipagem estática.
+- React Js: Biblioteca principal para construção de interfaces.
+- React Toastify: Para implementação de notificações elegantes.
+- Framer Motion: Para animações fluidas e interativas.
 
-- TypeScript
-- React Js
-- React Toastify
-- Framer Motion
-
-## 🌐 Acesso Online
+## Acesso Online 🌐
 
 Você pode acessar o projeto online através do seguinte link:
 
 - [Acessar Projeto Online](https://login-react-phi.vercel.app)
 
-## 🚧 Pré-requisitos
-
-Para executar este projeto, você precisará de:
-
-- Node.js (versão 14.0 ou superior)
-- Git
-- npm (ou yarn, se preferir)
-
-## 🛠️ Instalação
+## Instalação 🛠️
 
 Siga estes passos para configurar o projeto localmente:
 
-1. **Clonar o Repositório:**
+**Clonar o Repositório:**
 
    ```bash
    git clone https://github.com/aridsonf/login-react.git
    cd login-react
    ```
 
-2. **Instalar Dependências:**
+**Instalar Dependências e Iniciar o Projeto:**
 
    ```bash
    npm install
-   ```
-
-3. **Iniciar o Projeto:**
-   ```bash
    npm run dev
    ```
 
-4. **Configurar Variáveis de Ambiente:**
+**Configurar Variáveis de Ambiente:**
    Renomeie o arquivo `.env.example` para `.env` e ajuste as variáveis conforme necessário.
 
    ```bash
    REACT_APP_HCAPTCHA_SITEKEY=your-hcaptcha-site-key
-
-5. **Dados de Demostração**
+  ```
+**Dados de Demostração:**
     Utilize os seguites dados de demostração para mostrar a validação da página:
-    - **Usuário:** test
-    - **Senha:** 12345678
+  - **Usuário:** test
+  - **Senha:** 12345678
 
 ## 🤝 Como Contribuir
 
