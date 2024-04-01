@@ -12,6 +12,7 @@ import { toast } from 'react-toastify';
 
 const MOCKED_USER = 'test';
 const MOCKED_PASSWORD = '12345678';
+const REACT_APP_HCAPTCHA_SITEKEY = process.env.REACT_APP_HCAPTCHA_SITEKEY;
 
 interface FormValues {
   username: string;
@@ -21,9 +22,9 @@ interface FormValues {
 export default function LoginForm() {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [token, setToken] = useState(null);
   const [checked, setChecked] = useState(false);
   const [hover, setHover] = useState(false);
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false); 
 
   const initialValues = {
     username: '',
@@ -47,6 +48,18 @@ export default function LoginForm() {
   };
 
   const onSubmit = (values: FormValues) => {
+    if (!isCaptchaVerified) {
+      toast.error("Por favor, verifique o captcha antes de enviar o formulário.", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+      return;
+    }
     toast.success("Sucesso", {
       position: "top-right",
       autoClose: 3000,
@@ -60,11 +73,6 @@ export default function LoginForm() {
 
   let Icon = FaRegSquare; 
   if (hover || checked) Icon = FaCheckSquare; 
-
-  useEffect(() => {
-    if (token)
-      console.log(`hCaptcha Token: ${token}`);
-  }, [token]);
 
   return (
     <Formik
@@ -116,7 +124,10 @@ export default function LoginForm() {
             </label>
           </div>
           <div className="mt-3 flex justify-center py-2">
-            <HCaptcha sitekey="00000000–0000–0000–0000–000000000000" />
+            <HCaptcha 
+              sitekey={REACT_APP_HCAPTCHA_SITEKEY ?? "00000000–0000–0000–0000–000000000000"} 
+              onVerify={(token: string) => setIsCaptchaVerified(true)} 
+            />
           </div>
           <ButtonSubmit disabled={isLoading} icon={enterIcon} label={'Entrar'} />
         </Form>
