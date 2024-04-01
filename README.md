@@ -5,7 +5,8 @@
 ## 📘 Sobre o Projeto
 
 Este projeto é uma aplicação web de login responsivo, construída utilizando React JS e TypeScript. O layout foi concebido no Figma e a aplicação foi desenvolvida com base no design fornecido.
-# 📚 Funcionalidades
+
+## 📚 Funcionalidades
 
 - Responsividade
 - Dark Mode
@@ -27,6 +28,12 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
 - React Js
 - React Toastify
 - Framer Motion
+
+## 🌐 Acesso Online
+
+Você pode acessar o projeto online através do seguinte link:
+
+- [Acessar Projeto Online](https://login-react-phi.vercel.app)
 
 ## 🚧 Pré-requisitos
 
