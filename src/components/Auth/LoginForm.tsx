@@ -75,7 +75,7 @@ export default function LoginForm() {
               <img src={personIcon} alt='' className="size-4"/>
             } 
             label={'Usuário'} 
-            error={touched.username ? errors.username : undefined}
+            error={isSubmitting ? undefined : touched.username ? errors.username : undefined}
             isValid={isSubmitting && touched.username && !errors.username}
           />
           <Input
@@ -91,7 +91,7 @@ export default function LoginForm() {
             }
             showPassword={showPassword}
             setShowPassword={setShowPassword}
-            error={touched.password ? errors.password : undefined}
+            error={isSubmitting ? undefined : touched.password ? errors.password : undefined}
             isValid={isSubmitting && touched.password && !errors.password}
           />        
           <div className="mt-3 flex items-center gap-4">
